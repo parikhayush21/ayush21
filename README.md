@@ -1,7 +1,4 @@
-echo "# ayush1234" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ayush1234/ayush1234.git
-git push -u origin main
+echo 'print("Hello, world!")' > main.py
+git add main.py
+git commit -m "Add main Python file"
+git push
